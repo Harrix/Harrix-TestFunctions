@@ -1,0 +1,26 @@
+\documentclass[a4paper,12pt]{report}
+
+\input{packages}
+\input{styles}
+
+\begin{document}
+
+\input{names}
+
+\input{title}			% Титульный лист
+\input{contents}		% Содержание
+\input{symbols}			% Условные обозначения
+\input{introduction}	% Введение
+\input{part1}			% Глава 1
+
+\input{conclusion}		% Заключение
+%\input{lists}			% Списки таблицы и изображений
+
+% Список литературы
+\addcontentsline{toc}{chapter}{\bibname}
+\bibliographystyle{utf8gost705u}  %% стилевой файл для оформления по ГОСТу
+\bibliography{biblio}     %% имя библиографической базы (bib-файла)
+
+%\input{appendix}		% Приложения
+
+\end{document}
