@@ -1,7 +1,7 @@
 HarrixTestFunctions
 ===================
 
-Тестовые функции для глобальной оптимизации. v.1.0.
+Тестовые функции для глобальной оптимизации. v.1.1.
 
 Сам документ находится в файле **_HarrixTestFunctions.pdf**.
 
@@ -12,9 +12,17 @@ https://github.com/Harrix/HarrixTestFunctions
 Тестовые функции
 ---------------
 
-На данный момент функций 1 штука.
+На данный момент функций 5 штук.
 
 MHL_TestFuction_Ackley - Функция Ackley.
+
+MHL_TestFuction_ParaboloidOfRevolution - Эллиптический параболоид.
+
+MHL_TestFuction_Rastrigin - Функция Растригина.
+
+MHL_TestFuction_Rosenbrock - Функция Розенброка.
+
+MHL_TestFuction_SumVector - Сумма всех элементов бинарного вектора.
 
 Про структуру проекта
 ---------------
