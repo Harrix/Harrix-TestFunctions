@@ -5,14 +5,14 @@
 \subsection {Описание функции}
 
 \begin{tabularwide}
-\textbf{Идентификатор:} & MHL\_TestFuction\_SumVector. \\
+\textbf{Идентификатор:} & MHL\_TestFunction\_SumVector. \\
 \textbf{Наименование:} & Сумма всех элементов бинарного вектора. \\
 \textbf{Тип:} & Задача бинарной оптимизации. \\
 \end{tabularwide}
 
 \textbf{Формула} (целевая функция):
 \begin{equation}
-\label{TestFunctions:eq:MHL_TestFuction_SumVector}
+\label{TestFunctions:eq:MHL_TestFunction_SumVector}
 f\left( \bar{x}\right) = \sum_{i=1}^{n}\bar{x}_i, \text{ где}
 \end{equation}
 \indent $\bar{x}\in X$, $\bar{x}_j\in \left\lbrace 0; 1 \right\rbrace  $, $j=\overline{1,n}$.
@@ -78,8 +78,8 @@ E_f = \dfrac{\sum_{k=1}^{N} \left| f\left( \bar{x}_{submax}^k \right)-f\left( \b
 
 Реализация функции взята из библиотеки MathHarrixLibrary в разделе <<Тестовые функции для оптимизации>>, которую можно найти по адресу \href{https://github.com/Harrix/MathHarrixLibrary} {https://github.com/Harrix/MathHarrixLibrary}.
 
-\begin{lstlisting}[caption=Код функции MHL\_TestFuction\_SumVector]
-double MHL_TestFuction_SumVector(int *x, int VMHL_N)
+\begin{lstlisting}[caption=Код функции MHL\_TestFunction\_SumVector]
+double MHL_TestFunction_SumVector(int *x, int VMHL_N)
 {
 /*
 Сумма всех элементов бинарного вектора.
