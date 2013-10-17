@@ -7,7 +7,7 @@ HarrixTestFunctions
 
 https://github.com/Harrix/HarrixTestFunctions
 
-Файлы распространяются по лицензии Apache License, Version 2.0.
+Файлы распространяются по лицензии [Apache License, Version 2.0](../master/LICENSE.txt).
 
 Сам документ находится в файле [**_HarrixTestFunctions.pdf**](../master/_HarrixTestFunctions.pdf).
 
