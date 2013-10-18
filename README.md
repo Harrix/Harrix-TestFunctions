@@ -43,7 +43,7 @@ https://github.com/Harrix/HarrixTestFunctions
 
 В папке [**Source**](../master/Source) располагаются файлы непосредственно документа, где находится файл [**_HarrixTestFunctions.tex**](../master/_HarrixTestFunctions.tex) (это исходник pdf документа) и файлы, которые являются вызываемыми или вспомогательными для [**_HarrixTestFunctions.tex**](../master/_HarrixTestFunctions.tex).
 
-В папке [**MathcadFiles**](../master/MathcadFiles) располагаются файлы Mathcad, в которых реализованы функции, а также графики для рисунков из папки **images** в папке **source**. 
+В папке [**MathcadFiles**](../master/MathcadFiles) располагаются файлы Mathcad, в которых реализованы функции, а также графики для рисунков из папки [**Source/images**](../master/Source/images) в папке [**Source**](../master/Source). 
 
 В папке [**images**](../master/images) находятся служебные рисунки для отображения в этом файле.
 
