@@ -17,11 +17,11 @@ https://github.com/Harrix/HarrixTestFunctions
 ---------------
 
 На данный момент функций 5 штук.
- * MHL_TestFuction_Ackley - функция Ackley.
- * MHL_TestFuction_ParaboloidOfRevolution - эллиптический параболоид.
- * MHL_TestFuction_Rastrigin - функция Растригина.
- * MHL_TestFuction_Rosenbrock - функция Розенброка.
- * MHL_TestFuction_SumVector - сумма всех элементов бинарного вектора.
+ * **MHL_TestFuction_Ackley** - функция Ackley.
+ * **MHL_TestFuction_ParaboloidOfRevolution** - эллиптический параболоид.
+ * **MHL_TestFuction_Rastrigin** - функция Растригина.
+ * **MHL_TestFuction_Rosenbrock** - функция Розенброка.
+ * **MHL_TestFuction_SumVector** - сумма всех элементов бинарного вектора.
  
 Графики некоторых функций
 -------------------------
