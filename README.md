@@ -22,17 +22,30 @@ https://github.com/Harrix/HarrixTestFunctions
  * MHL_TestFuction_Rastrigin - функция Растригина.
  * MHL_TestFuction_Rosenbrock - функция Розенброка.
  * MHL_TestFuction_SumVector - сумма всех элементов бинарного вектора.
+ 
+Графики некоторых функций
+-------------------------
+
+![alt text](../master/images/MHL_TestFunction_Ackley.png "MHL_TestFunction_Ackley")
+
+![alt text](../master/images/MHL_TestFunction_ParaboloidOfRevolution.png "MHL_TestFunction_ParaboloidOfRevolution")
+
+![alt text](../master/images/MHL_TestFunction_Rastrigin.png "MHL_TestFunction_Rastrigin")
+
+![alt text](../master/images/MHL_TestFunction_Rosenbrock.png "MHL_TestFunction_Rosenbrock")
 
 Про структуру проекта
 ---------------------
 
-В корневой папке находятся две папки. 
+Файл [**_HarrixTestFunctions.pdf**](../master/_HarrixTestFunctions.pdf) - это непосредственно сам документ тестовых функций.
+
+В корневой папке находятся три папки. 
 
 В папке [**Source**](../master/Source) располагаются файлы непосредственно документа, где находится файл [**_HarrixTestFunctions.tex**](../master/_HarrixTestFunctions.tex) (это исходник pdf документа) и файлы, которые являются вызываемыми или вспомогательными для [**_HarrixTestFunctions.tex**](../master/_HarrixTestFunctions.tex).
 
 В папке [**MathcadFiles**](../master/MathcadFiles) располагаются файлы Mathcad, в которых реализованы функции, а также графики для рисунков из папки **images** в папке **source**. 
 
-Файл [**_HarrixTestFunctions.pdf**](../master/_HarrixTestFunctions.pdf) - это непосредственно сам документ тестовых функций.
+В папке [**images**](../master/images) находятся служебные рисунки для отображения в этом файле.
 
 Сведения для редактирования файлов
 ----------------------------------
