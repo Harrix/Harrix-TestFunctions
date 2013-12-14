@@ -1,6 +1,11 @@
 HarrixTestFunctions
 ===================
 
+1.7
+----
+ * Разделение исходника на отдельные tex файлы под каждую функцию.
+ * Добавлена функция MHL_TestFunction_AdditivePotential и MHL_TestFunction_MultiplicativePotential.
+
 1.6
 ----
  * Удалена функция MHL_TestFunction_AckleyII. Оказалось, что минимум функции по своем у значению меняется.

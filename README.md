@@ -1,7 +1,7 @@
 HarrixTestFunctions
 ===================
 
-Версия 1.6
+Версия 1.7
 
 Тестовые функции для глобальной оптимизации.
 
@@ -18,6 +18,8 @@ https://github.com/Harrix/HarrixTestFunctions
 
 На данный момент функций 5 штук.
  * **MHL_TestFuction_Ackley** - функция Ackley.
+ * **MHL_TestFunction_AdditivePotential** - аддитивная потенциальная функция.
+ * **MHL_TestFunction_MultiplicativePotential** - мультипликативная потенциальная функция.
  * **MHL_TestFuction_ParaboloidOfRevolution** - эллиптический параболоид.
  * **MHL_TestFuction_Rastrigin** - функция Растригина.
  * **MHL_TestFuction_Rosenbrock** - функция Розенброка.
@@ -27,6 +29,8 @@ https://github.com/Harrix/HarrixTestFunctions
 -------------------------
 
 ![alt text](../master/images/MHL_TestFunction_Ackley.png "MHL_TestFunction_Ackley")
+
+![alt text](../master/images/MHL_TestFunction_AdditivePotential.png "MHL_TestFunction_AdditivePotential")
 
 ![alt text](../master/images/MHL_TestFunction_ParaboloidOfRevolution.png "MHL_TestFunction_ParaboloidOfRevolution")
 

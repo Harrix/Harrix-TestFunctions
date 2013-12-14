@@ -11,17 +11,26 @@
 \input{contents}		% Содержание
 \input{symbols}			% Условные обозначения
 \input{introduction}	% Введение
-\input{part1}			% Задачи вещественной оптимизации
-\input{part2}			% Задачи бинарной оптимизации
+
+\chapter{Задачи вещественной оптимизации}
+\input{MHL_TestFunction_Ackley}
+\input{MHL_TestFunction_AdditivePotential}
+\input{MHL_TestFunction_MultiplicativePotential}
+\input{MHL_TestFunction_ParaboloidOfRevolution}
+\input{MHL_TestFunction_Rastrigin}
+\input{MHL_TestFunction_Rosenbrock}
+\clearpage
+
+
+\chapter{Задачи бинарной оптимизации}
+\input{MHL_TestFunction_SumVector}
+\clearpage
 
 \input{conclusion}		% Заключение
-%\input{lists}			% Списки таблицы и изображений
 
 % Список литературы
 \addcontentsline{toc}{chapter}{\bibname}
 \bibliographystyle{utf8gost705u}  %% стилевой файл для оформления по ГОСТу
 \bibliography{biblio}     %% имя библиографической базы (bib-файла)
-
-%\input{appendix}		% Приложения
 
 \end{document}
