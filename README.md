@@ -16,18 +16,18 @@ https://github.com/Harrix/HarrixTestFunctions
 Тестовые функции
 ----------------
 
-На данный момент функций 10 штук.
+На данный момент функций 11 штук.
  * **MHL_TestFuction_Ackley** - функция Ackley.
- * **MHL_TestFunction_AdditivePotential** - аддитивная потенциальная функция.
- * **MHL_TestFunction_MultiplicativePotential** - мультипликативная потенциальная функция.
- * **MHL_TestFunction_ReverseGriewank** - функция ReverseGriewank.
+ * **MHL_TestFunction_HyperEllipsoid** - гипер-эллипсоид;
  * **MHL_TestFuction_ParaboloidOfRevolution** - эллиптический параболоид.
  * **MHL_TestFuction_Rastrigin** - функция Растригина.
  * **MHL_TestFuction_Rosenbrock** - функция Розенброка.
- * **MHL_TestFuction_SumVector** - сумма всех элементов бинарного вектора;
- * **MHL_TestFunction_HyperEllipsoid** - гипер-эллипсоид;
  * **MHL_TestFunction_RotatedHyperEllipsoid** - развернутый гипер-эллипсоид.
- * **MHL_TestFunction_Wave** - волна.
+ * **MHL_TestFunction_AdditivePotential** - аддитивная потенциальная функция.
+ * **MHL_TestFunction_MultiplicativePotential** - мультипликативная потенциальная функция.
+ * **MHL_TestFunction_ReverseGriewank** - функция ReverseGriewank; 
+ * **MHL_TestFunction_Wave** - волна;
+ * **MHL_TestFuction_SumVector** - сумма всех элементов бинарного вектора.
  
 Графики некоторых функций
 -------------------------
