@@ -1,39 +1,39 @@
-\section {Функция ReverseGriewank}
+\section {Волна}
 
 \subsection {Описание функции}
 
 \begin{tabularwide}
-\textbf{Идентификатор:} & MHL\_TestFunction\_ReverseGriewank. \\
-\textbf{Наименование:} & Функция ReverseGriewank. \\
+\textbf{Идентификатор:} & MHL\_TestFunction\_Wave. \\
+\textbf{Наименование:} & Волна. \\
 \textbf{Тип:} & Задача вещественной оптимизации. \\
 \end{tabularwide}
 
 \textbf{Формула} (целевая функция):
 \begin{equation}
-\label{TestFunctions:eq:MHL_ReverseGriewank}
-f\left( \bar{x}\right) = \dfrac{1}{\dfrac{\bar{x}_1^2+\bar{x}_2^2}{200}-cos\left( \bar{x}_0\right)cos\left( \dfrac{\bar{x}_2}{\sqrt{2}}\right)+2  }, \text{ где}
+\label{TestFunctions:eq:MHL_TestFunction_Wave}
+f\left( \bar{x}\right) = e^{ -\bar{x}_1^2}+0.01\cos\left( 200\cdot\bar{x}_1\right)    , \text{ где}
 \end{equation}
-\indent $\bar{x}\in X$, $\bar{x}_j\in \left[ Left_j; Right_j\right] $, $Left_j=-10$, $Right_j=10$, $j=\overline{1,n}$, $n=2$.
+\indent $\bar{x}\in X$, $\bar{x}_j\in \left[ Left_j; Right_j\right] $, $Left_j=-2$, $Right_j=2$, $j=\overline{1,n}$, $n=1$.
 
 \begin{tabularwide}
-\textbf{Обозначение:} &\specialcell{$\bar{x}$ --- вещественный вектор;\\$n = 2$ --- размерность вещественного вектора.}  \\
+\textbf{Обозначение:} &\specialcell{$\bar{x}$ --- вещественный вектор;\\$n = 1$ --- размерность вещественного вектора.}  \\
 \textbf{Решаемая задача оптимизации:} & $\bar{x}_{max}= \arg \max_{\bar{x}\in X} f\left( \bar{x}\right)$.   \\
-\textbf{Точка максимума:} & $\bar{x}_{max}={\left( 0, 0\right)}^\mathrm{T} $, то есть $\left(\bar{x}_{max} \right)_j=0$ ($j=\overline{1,n}$).    \\
-\textbf{Максимум функции:} & $f\left(\bar{x}_{max} \right) =1$.   \\
-\textbf{График:} & Рисунок \ref{TestFunctions:img:MHL_TestFunction_ReverseGriewanke} нас \pageref{TestFunctions:img:MHL_TestFunction_ReverseGriewanke} стр.   \\
+\textbf{Точка максимума:} & $\bar{x}_{max}={\left( 0\right)}^\mathrm{T} $, то есть $\left(\bar{x}_{max} \right)_j=0$ ($j=\overline{1,n}$).    \\
+\textbf{Максимум функции:} & $f\left(\bar{x}_{max} \right) =1.01$.   \\
+\textbf{График:} & Рисунок \ref{TestFunctions:img:MHL_TestFunction_Wavee} нас \pageref{TestFunctions:img:MHL_TestFunction_Wavee} стр.   \\
 \end{tabularwide}
 
 \begin{figure} [h] 
   \center
-  \includegraphics [scale=0.5] {MHL_TestFunction_ReverseGriewank}
-  \caption{Функция ReverseGriewank} 
-  \label{TestFunctions:img:MHL_TestFunction_ReverseGriewanke}  
+  \includegraphics [scale=1] {MHL_TestFunction_Wave}
+  \caption{Волна} 
+  \label{TestFunctions:img:MHL_TestFunction_Wavee}  
 \end{figure}
 
 \subsection {Параметры для алгоритмов оптимизации}
 
 \begin{tabularwide}
-\textbf{Точность вычислений:} & $\varepsilon=0.05$. \\
+\textbf{Точность вычислений:} & $\varepsilon=0.01$. \\
 \textbf{Число интервалов, на которые предполагается разбивать каждую компоненту вектора $\bar{x}$ в пределах своего изменения} (для алгоритмов дискретной оптимизации) : & $NumberOfParts_j=4095$ ($j=\overline{1,n}$). \\
 \textbf{Для этого длина бинарной строки для $x_j$ координаты равна} (для алгоритмов бинарной оптимизации) : & $\left( k_2\right)_j=12$ ($j=\overline{1,n}$). \\
 \end{tabularwide}
@@ -47,7 +47,7 @@ NumberOfParts_j=2^{\left( k_2\right)_j }-1\geq\dfrac{10\left( Right_j-Left_j\rig
 
 \begin{tabularwide}
 \textbf{Изменяемый параметр: } & $n$ --- размерность вещественного вектора. \\
-\textbf{Значение в основной задаче:} & $n=2$.\\
+\textbf{Значение в основной задаче:} & $n=1$.\\
 \end{tabularwide}
 
 \subsection {Нахождение ошибки оптимизации}
@@ -75,36 +75,33 @@ E_f = \dfrac{\sum_{k=1}^{N} \left| f\left( \bar{x}_{submin}^k \right)-f\left( \b
 \subsection {Свойства задачи}
 \begin{tabularwide}
 \textbf{Условной или безусловной оптимизации: } & Задача безусловной оптимизации. \\
-\textbf{Одномерной или многомерной оптимизации: } & Многомерной: (двумерной). \\
+\textbf{Одномерной или многомерной оптимизации: } & Одномерной. \\
 \textbf{Функция унимодальная или многоэкстремальная: } & Функция многоэкстремальная. \\
 \textbf{Функция стохастическая или нет: } & Функция не стохастическая. \\
-\textbf{Особенности: } & Нет. \\
+\textbf{Особенности: } & Хотя внешне можно отнести эту функцию к стохастической, так как по поведению напоминает вид плотности нормального распределения с помехой. \\
 \end{tabularwide}
 
 \subsection {Реализация}
 
 Реализация функции взята из библиотеки HarrixMathLibrary в разделе <<Тестовые функции для оптимизации>>, которую можно найти по адресу \href{https://github.com/Harrix/HarrixMathLibrary} {https://github.com/Harrix/HarrixMathLibrary}.
 
-\begin{lstlisting}[caption=Код функции MHL\_TestFunction\_ReverseGriewank]
-double MHL_TestFunction_ReverseGriewank(double x, double y)
+\begin{lstlisting}[caption=Код функции MHL\_TestFunction\_Wave]
+double MHL_TestFunction_Wave(double x)
 {
 /*
-Функция двух переменных: функция ReverseGriewank.
+Функция одной переменных: волна.
 Тестовая функция вещественной оптимизации.
 Входные параметры:
- x - первая вещественная переменная;
- y - вторая вещественная переменная.
+ x - вещественная переменная.
 Возвращаемое значение:
- Значение тестовой функции в точке (x,y).
+ Значение тестовой функции в точке (x).
 */
 double VMHL_Result;
-
-VMHL_Result = 1./((x*x+y*y)/200.-cos(x)*cos(y/sqrt(2.))+2.);
-
+VMHL_Result = (exp(-x*x)+0.01*cos(200*x));
 return VMHL_Result;
 }
 \end{lstlisting}
 
 \subsection {Ссылки}
 
-Так и не смог найти нормальный источник для этой функции. По внешнему виду похожа на функцию Гриванка, которую возвели в $-1$ степень. Откуда-то у меня находится со студенческих времен.
+Так и не смог найти нормальный источник для этой функции. Откуда-то у меня находится со студенческих времен.

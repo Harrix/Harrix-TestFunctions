@@ -1,6 +1,11 @@
 HarrixTestFunctions
 ===================
 
+1.11
+----
+ * Исправление формулы функции MHL_TestFunction_ReverseGriewank.
+ * Добавление функции MHL_TestFunction_Wave.
+
 1.10
 ----
  * Добавление информации, что некоторые функции двумерные.

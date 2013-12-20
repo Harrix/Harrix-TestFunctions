@@ -1,7 +1,7 @@
 HarrixTestFunctions
 ===================
 
-Версия 1.10
+Версия 1.11
 
 Тестовые функции для глобальной оптимизации.
 
@@ -27,6 +27,7 @@ https://github.com/Harrix/HarrixTestFunctions
  * **MHL_TestFuction_SumVector** - сумма всех элементов бинарного вектора;
  * **MHL_TestFunction_HyperEllipsoid** - гипер-эллипсоид;
  * **MHL_TestFunction_RotatedHyperEllipsoid** - развернутый гипер-эллипсоид.
+ * **MHL_TestFunction_Wave** - волна.
  
 Графики некоторых функций
 -------------------------
