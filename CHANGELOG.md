@@ -1,6 +1,10 @@
 HarrixTestFunctions
 ===================
 
+1.13
+----
+ * Добавление функции MHL_TestFunction_Multiextremal2.
+
 1.12
 ----
  * Добавление функции MHL_TestFunction_Multiextremal.

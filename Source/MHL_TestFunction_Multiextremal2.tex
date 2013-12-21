@@ -1,33 +1,33 @@
-\section {Функция Multiextremal}
+\section {Функция Multiextremal2}
 
 \subsection {Описание функции}
 
 \begin{tabularwide}
-\textbf{Идентификатор:} & MHL\_TestFunction\_Multiextremal. \\
-\textbf{Наименование:} & Multiextremal. \\
+\textbf{Идентификатор:} & MHL\_TestFunction\_Multiextremal2. \\
+\textbf{Наименование:} & Multiextremal2. \\
 \textbf{Тип:} & Задача вещественной оптимизации. \\
 \end{tabularwide}
 
 \textbf{Формула} (целевая функция):
 \begin{equation}
-\label{TestFunctions:eq:MHL_TestFunction_Multiextremal}
-f\left( \bar{x}\right) = 0.05\left( x-1\right)^2 + \left( 3-2.9e^{-2.77257x^2}\right)\left( 1-\cos\left(x\left(4-50e^{-2.77257x^2} \right)  \right) \right)     , \text{ где}  
+\label{TestFunctions:eq:MHL_TestFunction_Multiextremal2}
+f\left( \bar{x}\right) =1-0.5\cos\left( 1.5\left( 10x-0.3\right) \right)\cos\left( 31.4x\right)+0.5\cos\left(\sqrt{5}\cdot10x \right)\cos\left( 35x\right) , \text{ где}  
 \end{equation}
 \indent $\bar{x}\in X$, $\bar{x}_j\in \left[ Left_j; Right_j\right] $, $Left_j=-2$, $Right_j=2$, $j=\overline{1,n}$, $n=1$.
 
 \begin{tabularwide}
 \textbf{Обозначение:} &\specialcell{$\bar{x}$ --- вещественный вектор;\\$n = 1$ --- размерность вещественного вектора.}  \\
-\textbf{Решаемая задача оптимизации:} & $\bar{x}_{min}= \arg \min_{\bar{x}\in X} f\left( \bar{x}\right)$.   \\
-\textbf{Точка минимума:} & $\bar{x}_{min}\approx{\left( 0.954452\right)}^\mathrm{T} $, то есть $\left(\bar{x}_{min} \right)_j\approx0.954452$ ($j=\overline{1,n}$).    \\
-\textbf{Минимум функции:} & $f\left(\bar{x}_{min} \right) \approx 0.000103742$.   \\
-\textbf{График:} & Рисунок \ref{TestFunctions:img:MHL_TestFunction_Multiextremale} нас \pageref{TestFunctions:img:MHL_TestFunction_Multiextremale} стр.   \\
+\textbf{Решаемая задача оптимизации:} & $\bar{x}_{max}= \arg \max_{\bar{x}\in X} f\left( \bar{x}\right)$.   \\
+\textbf{Точка максимума:} & $\bar{x}_{max}\approx{\left( -0.993263\right)}^\mathrm{T} $, то есть $\left(\bar{x}_{max} \right)_j\approx-0.993263$ ($j=\overline{1,n}$).    \\
+\textbf{Максимум функции:} & $f\left(\bar{x}_{max} \right) \approx 1.93374$.   \\
+\textbf{График:} & Рисунок \ref{TestFunctions:img:MHL_TestFunction_Multiextremal2e} нас \pageref{TestFunctions:img:MHL_TestFunction_Multiextremal2e} стр.   \\
 \end{tabularwide}
 
 \begin{figure} [h] 
   \center
-  \includegraphics [scale=1] {MHL_TestFunction_Multiextremal}
-  \caption{Функция Multiextremal} 
-  \label{TestFunctions:img:MHL_TestFunction_Multiextremale}  
+  \includegraphics [scale=1] {MHL_TestFunction_Multiextremal2}
+  \caption{Функция Multiextremal2} 
+  \label{TestFunctions:img:MHL_TestFunction_Multiextremal2e}  
 \end{figure}
 
 \subsection {Параметры для алгоритмов оптимизации}
@@ -85,11 +85,11 @@ E_f = \dfrac{\sum_{k=1}^{N} \left| f\left( \bar{x}_{submin}^k \right)-f\left( \b
 
 Реализация функции взята из библиотеки HarrixMathLibrary в разделе <<Тестовые функции для оптимизации>>, которую можно найти по адресу \href{https://github.com/Harrix/HarrixMathLibrary} {https://github.com/Harrix/HarrixMathLibrary}.
 
-\begin{lstlisting}[caption=Код функции MHL\_TestFunction\_Multiextremal]
-double MHL_TestFunction_Multiextremal(double x)
+\begin{lstlisting}[caption=Код функции MHL\_TestFunction\_Multiextremal2]
+double MHL_TestFunction_Multiextremal2(double x)
 {
 /*
-Функция одной переменных: функция Multiextremal.
+Функция одной переменных: функция Multiextremal2.
 Тестовая функция вещественной оптимизации.
 Входные параметры:
  x - вещественная переменная.
@@ -97,7 +97,7 @@ double MHL_TestFunction_Multiextremal(double x)
  Значение тестовой функции в точке (x).
 */
 double VMHL_Result;
-VMHL_Result = (0.05*(x-1.)*(x-1.)+(3.-2.9*exp(-2.77257*x*x))*(1-cos(x*(4.-50*exp(-2.77257*x*x)))));
+VMHL_Result = 1.-0.5*cos(1.5*(10.*x-0.3))*cos(31.4*x)+0.5*cos(sqrt(5.)*10.*x)*cos(35.*x);
 return VMHL_Result;
 }
 \end{lstlisting}
@@ -107,7 +107,7 @@ return VMHL_Result;
 Данная функция приводится в следующих источниках:
 
 \begin{enumerate}
-\item \cite[стр. 26]{book:Semenkin2007} ---  \href{http://files.lib.sfu-kras.ru/ebibl/umkd/22/u_lectures.pdf}{Эволюционные методы моделирования и оптимизации сложных систем}.
+\item \cite[стр. 27]{book:Semenkin2007} ---  \href{http://files.lib.sfu-kras.ru/ebibl/umkd/22/u_lectures.pdf}{Эволюционные методы моделирования и оптимизации сложных систем}.
 \end{enumerate}
 
 По сравнению с данной работой в данном документе представлено уточненное значение функции в точке минимума.
