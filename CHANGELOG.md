@@ -1,6 +1,10 @@
 HarrixTestFunctions
 ===================
 
+1.15
+----
+ * Добавление функции MHL_TestFunction_Himmelblau.
+
 1.14
 ----
  * Добавление функции MHL_TestFunction_Sombrero.
