@@ -1,6 +1,14 @@
 HarrixTestFunctions
 ===================
 
+1.16
+----
+ * Добавление функции MHL_TestFunction_Katnikov.
+ * Добавлены ссылки на источники для функции MHL_TestFunction_Himmelblau и MHL_TestFunction_ParaboloidOfRevolution.
+ * Дополнения во введении.
+ * Исправлена функция MHL_TestFunction_Himmelblau (у нее оказывается четыре одинаковых глобальных минимума).
+ * Изменение формул нахождения надёжностей.
+
 1.15
 ----
  * Добавление функции MHL_TestFunction_Himmelblau.

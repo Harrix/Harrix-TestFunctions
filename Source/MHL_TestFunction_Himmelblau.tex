@@ -18,8 +18,8 @@ f\left( \bar{x}\right) = \left( \bar{x}_1^2+\bar{x}_2-11\right)^2+\left( \bar{x}
 \begin{tabularwide}
 \textbf{Обозначение:} &\specialcell{$\bar{x}$ --- вещественный вектор;\\$n = 2$ --- размерность вещественного вектора.}  \\
 \textbf{Решаемая задача оптимизации:} & $\bar{x}_{min}= \arg \min_{\bar{x}\in X} f\left( \bar{x}\right)$.   \\
-\textbf{Точка минимума:} & $\bar{x}_{min}={\left( 3, 2\right)}^\mathrm{T} $.    \\
-\textbf{Минимум функции:} & $f\left(\bar{x}_{min} \right) =0$.   \\
+\textbf{Точки минимума:} & \specialcell{$\bar{x}_{min}^1={\left( 3, 2\right)}^\mathrm{T} $, \\$\bar{x}_{min}^2\approx{\left( -2.8051183, 3.131312\right)}^\mathrm{T} $\\$\bar{x}_{min}^3\approx{\left( -3.779310, -3.283186\right)}^\mathrm{T} $\\$\bar{x}_{min}^4\approx{\left( 3.584428, -1.848126\right)}^\mathrm{T} $.}    \\
+\textbf{Минимум функции:} & $f\left(\bar{x}_{min}^i \right) =0$, $i=\overline{1,4}$.   \\
 \textbf{График:} & Рисунок \ref{TestFunctions:img:MHL_TestFunction_Himmelblaue} нас \pageref{TestFunctions:img:MHL_TestFunction_Himmelblaue} стр.   \\
 \end{tabularwide}
 
@@ -52,6 +52,8 @@ NumberOfParts_j=2^{\left( k_2\right)_j }-1\geq\dfrac{10\left( Right_j-Left_j\rig
 
 \subsection {Нахождение ошибки оптимизации}
 
+{\color{red} \textbf{Внимание!} В отличии от других функций формулы нахождения ошибок другие, так как есть несколько идентичных по значению целевой функции глобальных минимумов.}
+
 Пусть в результате работы алгоритма оптимизации за $N$ запусков мы нашли решения $\bar{x}_{submin}^k$ со значениями целевой функции $f\left( \bar{x}_{submin}^k\right) $ соответственно ($k=\overline{1,N}$). Используем три вида ошибок:
 
 \textbf{Надёжность: }
@@ -59,15 +61,15 @@ NumberOfParts_j=2^{\left( k_2\right)_j }-1\geq\dfrac{10\left( Right_j-Left_j\rig
 R = \dfrac{\sum_{k=1}^{N}S\left( \bar{x}_{submin}^k \right) }{N}, \text{ где}
 \end{equation*}
 \begin{equation*}
-S\left( \bar{x}_{submin}^k \right)=\left\lbrace \begin{aligned} 1,& \text{ если } \left| \left( \bar{x}_{submin}^k \right)_j-\left( \bar{x}_{min} \right)_j\right|\leq\varepsilon, j=\overline{1,n};   \\ 0,& \text{ иначе}. \end{aligned}\right.
+S\left( \bar{x}_{submin}^k \right)=\left\lbrace \begin{aligned} 1,& \text{ если } \left| \left( \bar{x}_{submin}^k \right)_j-\left( \bar{x}_{min}^1 \right)_j\right|<\varepsilon, j=\overline{1,n};   \\ 1,& \text{ если } \left| \left( \bar{x}_{submin}^k \right)_j-\left( \bar{x}_{min}^2 \right)_j\right|<\varepsilon, j=\overline{1,n};   \\ 1,& \text{ если } \left| \left( \bar{x}_{submin}^k \right)_j-\left( \bar{x}_{min}^3 \right)_j\right|<\varepsilon, j=\overline{1,n};   \\ 1,& \text{ если } \left| \left( \bar{x}_{submin}^k \right)_j-\left( \bar{x}_{min}^4 \right)_j\right|<\varepsilon, j=\overline{1,n};   \\ 0,& \text{ иначе}. \end{aligned}\right.
 \end{equation*}
 
 \textbf{Ошибка по входным параметрам:}
 \begin{equation*}
-E_x = \dfrac{\sum_{k=1}^{N} \left( \frac{\sqrt{\sum_{j=1}^{n}{\left( \left( \bar{x}_{submin}^k \right)_j-\left( \bar{x}_{min} \right)_j \right)}^2 }}{n} \right)  }{N}.
+E_x = \min_{i=\overline{1,4}} \left\lbrace  \frac{\sum_{k=1}^{N} \left( \frac{\sqrt{\sum_{j=1}^{n}{\left( \left( \bar{x}_{submin}^k \right)_j-\left( \bar{x}_{min}^i \right)_j \right)}^2 }}{n} \right)  }{N}\right\rbrace  .
 \end{equation*}
 
-\textbf{Ошибка по значениям целевой функции: }
+\textbf{Ошибка по значениям целевой функции: } (без изменений)
 \begin{equation*}
 E_f = \dfrac{\sum_{k=1}^{N} \left| f\left( \bar{x}_{submin}^k \right)-f\left( \bar{x}_{min} \right) \right|  }{N}.
 \end{equation*}
@@ -78,7 +80,7 @@ E_f = \dfrac{\sum_{k=1}^{N} \left| f\left( \bar{x}_{submin}^k \right)-f\left( \b
 \textbf{Одномерной или многомерной оптимизации: } & Многомерной: (двумерной). \\
 \textbf{Функция унимодальная или многоэкстремальная: } & Функция многоэкстремальная. \\
 \textbf{Функция стохастическая или нет: } & Функция не стохастическая. \\
-\textbf{Особенности: } & Нет. \\
+\textbf{Особенности: } & Есть 4 глобальных минимума. \\
 \end{tabularwide}
 
 \subsection {Реализация}
@@ -105,11 +107,9 @@ return VMHL_Result;
 
 \subsection {Ссылки}
 
-ВСТАВИТЬ ССЫЛКИ!
-
 Данная функция приводится в следующих источниках:
 
 \begin{enumerate}
-\item \cite[стр. 5]{web:1207.4318} ---  \href{http://arxiv.org/pdf/1207.4318v1.pdf}{Empirical review of standard benchmark functions using evolutionary global optimization}.
-\item \cite{web:www.cs.unm.edu:AckleysFunction} ---  \href{http://www.cs.unm.edu/~neal.holts/dga/benchmarkFunction/ackley.html}{Ackley's Function}.
+\item \cite{web:Himmelblausfunction} ---  \href{http://en.wikipedia.org/wiki/Himmelblau's_function}{Himmelblau's function}.
+\item \cite{web:MinimizationOfTheHimmelblauFunction} ---  \href{http://pythonhosted.org/algopy/examples/minimization/himmelblau_minimization.html}{Minimization of the Himmelblau Function}.
 \end{enumerate}
