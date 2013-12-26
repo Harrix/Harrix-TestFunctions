@@ -16,7 +16,7 @@ https://github.com/Harrix/HarrixTestFunctions
 Тестовые функции
 ----------------
 
-На данный момент функций 17 штук.
+На данный момент функций 18 штук.
  * **MHL_TestFuction_Ackley** - функция Ackley.
  * **MHL_TestFunction_HyperEllipsoid** - гипер-эллипсоид;
  * **MHL_TestFuction_ParaboloidOfRevolution** - эллиптический параболоид.
