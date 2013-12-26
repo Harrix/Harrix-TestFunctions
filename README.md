@@ -1,7 +1,7 @@
 HarrixTestFunctions
 ===================
 
-Версия 1.17
+Версия 1.18
 
 Тестовые функции для глобальной оптимизации.
 
@@ -27,6 +27,7 @@ https://github.com/Harrix/HarrixTestFunctions
  * **MHL_TestFunction_Himmelblau** - функция Химмельблау.
  * **MHL_TestFunction_Katnikov** - функция Катникова.
  * **MHL_TestFunction_Multiextremal3** - функция Multiextremal3.
+ * **MHL_TestFunction_Multiextremal4** - функция Multiextremal4.
  * **MHL_TestFunction_MultiplicativePotential** - мультипликативная потенциальная функция.
  * **MHL_TestFunction_ReverseGriewank** - функция ReverseGriewank;
  * **MHL_TestFunction_Sombrero** - функция Сомбреро;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?validation-md5-digest bdbc53cbf5bd4bb6623eb19ace440a6b?>
+<?validation-md5-digest 296af2737ca51d43e9bb0f99cbdfffad?>
 <worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10">
 	<pointReleaseData/>
 	<metadata>
@@ -13,9 +13,9 @@
 			<revisedBy>ENTER</revisedBy>
 		</userData>
 		<identityInfo>
-			<revision>12</revision>
+			<revision>13</revision>
 			<documentID>F7105B4A-0F72-4CE8-82DE-13073895F074</documentID>
-			<versionID>CF7CC04D-ADA6-4CEF-B6B2-87912C8DC5FE</versionID>
+			<versionID>AFB4AC73-82F2-486E-81E8-67B21AF183EF</versionID>
 			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
 			<branchID>00000000-0000-0000-0000-000000000000</branchID>
 		</identityInfo>
@@ -126,11 +126,6 @@
 				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
 					<b>Целевая функция:</b>
 				</p>
-			</text>
-		</region>
-		<region region-id="122" left="480" top="56.25" width="343.5" height="12" align-x="480" align-y="66" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
-			<text use-page-width="false" push-down="false" lock-width="true">
-				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">VMHL_Result=x*x*fabs(sin(2.*x))+y*y*fabs(sin(2.*y))-1./(5.*x*x+5.*y*y+0.2)+5.;</p>
 			</text>
 		</region>
 		<region region-id="123" left="18" top="74.25" width="246" height="33.75" align-x="51" align-y="90" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
@@ -406,22 +401,22 @@ MaZQ/k6giqo1UpK9bgpK7O5OFNgZezfSa32SJSZrF/+a/4PSPit/9V4YLxNpEjAWkBN0NinR
 E6rVfht01ll+0q9BXEUvGugr8V7U6dYl0O/3TAYNj7MH+l1/BKRvqU/OE0YFPw3+07Ur8rfB
 TfCNyZ+8xfBwUoe4V5LPBnwf+jbSU6t9Y5j8DS4MJ8MNPxvl9+Ab4sz3X+XicE4mk99h3/8B
 bdfg3rcor8kAAAAASUVORK5CYII=</item>
-		<item item-id="6" content-encoding="gzip">H4sIAAAAAAAA/+xXy08TQRj/ZtvtA1pKedZyIXj2stWDhNCFysFEQ1IC0YuRlgVLaJfH+kpM
-7J9g4lUjJnjh5l0jejDhIiZ60wNcjDfxYOLFrt8337RdGiGAJEbl1/52dma+x8w3s/OIAIBA
-jiGb5LuGT7+zaFk9QDCQoWJ+NDdr5R1ZAlnkACqZPuPRS4Cy37jyFRPdiM7L+oDKBw2IoVSA
-LLBkIGxIxRA5I0fhzMTYyMJ5xyoKqRohdW9BFNksRUPWQtaaKdglXVacJu0pO89lfll2ttaB
-wNK1+WH7Frf3AjKIBdlaDy4iE8ir6KQJOY8691SeMItsxXcNtIgMT1vN05DjLBZy1x2LRfuR
-MfAi2t+3I99SDUuMw9LSymEhrTiHJdbGYYlTWNoNDatW8F0T06SnVS11yNcIhixjF3M2BYkr
-WqmDWFwvIeMDGMwkppNoehuYrkvSKDo6Z2XmClbJkTqCJwF3SaiBeLsR33z8NLkFDRgEH1Tc
-MAQ8ZXVtbo6m8hWXPDLcY/xV+IGsKPrVWB7j/0EWbPw50AsjUMJ0EW43LgV7ogv02jdPa8Em
-nBF98Q/x+2WITrzWk17Z5SdjNz6KDeED2la4LIPeya8ln0sH8k1owwXU25/96rX4DuxqVxzG
-/1Hid/zTmNE6TuGg75/2XVrzg0jcwCEMfGRoBt63j9eHfwsCR/gNnpKIoMa6PjO8mLz0KZ04
-de7zq2LCxGzv5dFv6Wf2wgPf1l2z9HwldWfiS1pNxlQq5QJuKTSzpvATrZsMs1lXvQv8CxLU
-Ma+jc+VenYa2X6g0zWnHmkrNXdXFHuoSy+9mhndX1/bvHaSCrhRl013umqv4a7iq6nA2xBHY
-0BpssDSinGYqmKLqzlvJAqJWKWurWpxqZv2Q6R1zego5Q3aaEzB0sm/wO1swHw62D+M4rTEJ
-yyazCtLhy0AH0DE4Bnn5xAOx6ITOasM8A9aQX4d1akvFDWZhEgq49+RwH7qJbaS2/SmOr7qw
-Og5HZq9cXsX0/Z4yEp18Gwl5biNd9Wtdt7rWJfj+0k0T7gRrdNc1kp7ansZaLPsJAAD//wMA
-KIjnf4QOAAA=</item>
+		<item item-id="6" content-encoding="gzip">H4sIAAAAAAAA/+xXTUwTQRR+s+32B1pK+a3lQvDspdWDhNCllYOJhqQEohcjLSuW0C4/a9TE
+xF69mXjViAknbt41ogcTLmKiNy/gwXgTDyZe7PrevGl3aYQAkhiVr/12dmbez8yb2fmJAIBA
+jiNb5LuGT7+9aJp9QEghQ+XiWGHWLNqyBPLIIVQyfKnHLwGq/tSVr5joqei8rA+ofDAFMZQK
+kAWWDIRTUjFEzshRODc5Prpw3jbLQqpGSN1bEEW2StGQuZA3Z0pWRZcVp0l72ipymV+WnW10
+ILB0fT5r3eL2XkAGsSDf6MFFZAJ5FZ20IOdR577KE2aR7fiugRaR4eloeBqx7cVS4YZtsugg
+MgZeRAcHduTb6mGJcVja2jkspBXnsMQ6OCxxCktnSsOqFXzXxDXS0+qWuuRrBEOWs8oFi4LE
+Fe3UQSx2S8j4EAYziekUmt4GpuOQNIqOzZm5uZJZsaWO4EnAXRJqIN5uxDefPE1uQROGwQc1
+JwwBT5mrzc3RVL7mkEeGc4y/Cj+QNUW/Gstj/D/Ig4U/G/phFCqYLsLt5qVgT/SA3vjmaS3Y
+hDNiIP4h/qAK0cnXetIru3kvO/5RbAgf0LbCZTn0Tn5N+Vw6kG9CBy6g3v7sV6/Nd2BXu+Iw
+/o8Sv+OfxozWcQoHff+079KaH0TiBg5h4CNDK/C+fbw+/FsQOMJv8JREBDXW7szwYurSp0zi
+1LnPr8oJA7P9l8e+ZZ5ZCw99W3eNyvOV9J3JLxk1GdPptAO4pdDMmsZP1DUZZrOOehf4FySo
+Y15H58q9Og1tv1BphtOuNZUau6qLPdQllt/NZHdX1/bvHaSCrhRl0x3umqP4aziq6nA2xBHY
+0JpssDSimmEqGKLuzlvJAqJRKWvrWpxqhnvI9I45PYWcITvNCRg5OTD8nS0Yj4Y7szhOa0zC
+ssGsg3T4MtAFdAyOQVE+8UAsuqG73jDPgDXl12Gd2lJzgnmYghLuPQXch25iG6ltf4oTqw6s
+TsCR2atWVzF9v6eMRDffRkKe20iPe63rVde6BN9femnCnWCNXlcj6anta67Fsp8AAAD//wMA
+nUI8MIQOAAA=</item>
 		<item item-id="7">iVBORw0KGgoAAAANSUhEUgAAAPIAAAEQCAYAAACKkymZAAAAAXNSR0IArs4c6QAAAARnQU1B
 AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAKglSURBVHhe7Z0FmB1F1obvTAx3Z3GX
 H/fFdWFx12Vh0WVxd3cLlpAAMeIhCRIj7o67xT2EuGeo/3tP17nTM5kIkmQy9Hme8/S9ffv2
@@ -1222,22 +1217,22 @@ TDKpAJKBnEkmFUBKgdwuXOWLpl3VLu7LJJNMyrukQP4hVD/kkFD9B15WD4fk4utMMsmk3Esx
 yBm8mWSy0koCskGcWos4c6szyWSlkswiZ5JJBZAM5EwyqQCSgZxJJhVAMpAzyaQCSAQ5NX4s
 zXJdmWSyckmxRc4kk0xWWslAziSTCiAZyJlkUgEkAzmTTFZ6CeH/ATv1oC7PyZENAAAAAElF
 TkSuQmCC</item>
-		<item item-id="8" content-encoding="gzip">H4sIAAAAAAAA/+xXzU8TQRR/s+32Q1pK+SqWC+Fk9LboQULoSoOJiYakBI4GWlesAuVjDXrb
-/8ADXo2YeDD1ZOLJi2iMCRchwYOJHjDx5gUvxotd35s3210bIYAkRuXX/na+3sfMm9mZnQQA
-COQo8pjMa/gM2wuW1Q0EAxmbKY0Ur1slW9ZAATmASmbIuP8CwAkbl79gohvJOdkeUeWoASmU
-ipAFlozEDakYI2fkKJ4fHx2ev2BbM0KqJkg9WJFENknRmDVfsKbKlVldNpwm7SuVEteFZd3Z
-+gAii9fmhiq3uL8XkVGsKNRHcAl5Ah1MILMoP4dcUWXCDWQL5jXQEjI8rXVP52x7oVy8aVss
-2o9MQRDJ/t6fys1eWFIcluYWDgtppTksqVYOS5rC0mZo2PQQ85q4SnqaZ6ldZhMYsnxlplih
-IHFDCw0Qq/0aMj6AwTyJZieR28B0XZJG0ZFpKz9dtmZtqSN4EfCQhJqIjfX01oMn2Y/QgEEI
-Qc2NQyRQ52tzdzRVrrnkkeEe4a/Cd2RNMazm8gj/DwpQwZ8NPTAMs5guwO3GrWBXdIJef+dp
-L9iCM6I3/T697EBy/LWeDcr2VKtLH8S6CAEdK1yXR+/k15LPxX35JrTiBhocz171mkP7drUj
-DuL/MPE7/mnOaB+ncND7T+cu7flRJB7gEAf+ZGgCPreP9od/CwJn+E0XSIKaa39lePj8ePnr
-t8WXucyrR3emejdzw3cnN049/ZTDpoln5x2TpbZzghdjX1+fC3ik0Mq6gq+obzLOZl2VF/gX
-JKhjWUfnyr36Gtp+7hnmtH1VpeaO6mIXdYmVzamhndW1vXsHqaArRdl1l4fmKv4armo6mA1x
-CDa0BhssjXByTAVTeO6CjSwg6o2y1dPiVDP9j8zgnNNTyBUSNEeGzDZj8J0Uc8x7g21DOE+r
-TMKKyfRAenwZaAf6DPZ+JXTXAR1exwIT1lBegzXqS82NFmASynj2FPEcWsI+Ut/+FMeqLlTH
-4NDsOU4V07e7ykh08G0kFriNdPrXuoy61nXx/SVDC+44a2R8jWygtbuxFet+AAAA//8DAGFv
-n8eEDgAA</item>
+		<item item-id="8" content-encoding="gzip">H4sIAAAAAAAA/+xXzU8TQRR/s+32Q1pK+SqWi+Fk9LboQULoSoOJiYakCEcDrStWgfKxRr3t
+f+ABr0ZMPJh6MvHkRTTGhIuQ4MHECxpvXjAmxotd35s3210bIYAkRuXX/na+3sfMm9mZnQQA
+COQI8pDMa/gM2/OW1Q0EAxmbLg0Xr1olW9ZAAdmPSmbIuPccwAkbFz9johvJWdkeUeWoASmU
+ipAFlozEDakYI2fkKJ4fGxmaO2tb00KqJkg9WJFENknRmDVXsCbLlRldNpwg7UuVEteFZd2p
++gAiC1dmBys3ub/nkFGsKNRHcB55FB2MI7MoP4tcUmXCNWQL5jXQEjI8rXVPp217vly8blss
+2odMQRDJvp6fys1eWFIcluYWDgtppTksqVYOS5rC0mZo2PQA85q4THqaZ6ldZhMYsnxlulih
+IHFDCw0Qq/0aMt6PwTyGZieQm8B0XZJG0eEpKz9VtmZsqSN4EfCQhJqItdX0xv3H2ffQgAEI
+Qc2NQyRQ52tzdzRVrrnkkeEe4K/Cd2RNMazm8gD/DwpQwZ8NR2AIZjCdh1uNW8G26AS9/s7T
+XrABJ0VP+l160YHk2Cs9G5R1vlQvfBCrIgR0rHBdHr2TX0s+F3blm9CKG2hwPDvVaw7t2tWW
+2Iv//cTv+Kc5o32cwkHvP527tOdHkXiAQxz4k6EJ+Nw+2B/+LQic4dddIAlqrv2V4eHTo8Wv
+3xZe5DIvH96e7FnPDd2ZWDv+5GMOm8afnnFMltrMCV6Mvb29LuCRQivrEr6ivsk4m3VVXuBf
+kKCOZR2dK/fqa2jzmWeY0/ZllZpbqott1CWW1icHt1bXdu4dpIKuFGXXXR6aq/hruKppbzbE
+PtjQGmywNMLJMRVM4bkLNrKAqDfKVk+LU830PzKDc05PIVdI0BwZMtuMgbdSzDHvDrQN4jwt
+MwlLJtMD6fFloB3oM9j7ldBdB3R4HQtMWEN5BVaoLzU3WoAJKOPZU8Rz6Ab2kfr2pzhadaE6
+Cvtmz3GqmL7ZVkaig28jscBtpNO/1mXUta6L7y8ZWnCHWSPja2QDrd2NrVj3AwAA//8DAOun
+9UyEDgAA</item>
 		<item item-id="9">iVBORw0KGgoAAAANSUhEUgAAAPIAAAEQCAYAAACKkymZAAAAAXNSR0IArs4c6QAAAARnQU1B
 AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAP+lSURBVHhe7P0H9G11eSf+H3pRAem9
 VwURRFEUu2IXxBZF6R1UxIq995aYYmyxU0RAqop0TKb3SWaSTDImJiaZZCaT5DfJlLX/79dz

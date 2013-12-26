@@ -1,6 +1,11 @@
 HarrixTestFunctions
 ===================
 
+1.18
+----
+ * Добавление функции MHL_TestFunction_Multiextremal4.
+ * Удалил заключение.
+
 1.17
 ----
  * Добавление функции MHL_TestFunction_Multiextremal3.
