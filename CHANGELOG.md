@@ -1,6 +1,10 @@
 HarrixTestFunctions
 ===================
 
+1.20
+----
+ * Добавление функции MHL_TestFunction_Rana.
+
 1.19
 ----
  * Добавление функции MHL_TestFunction_StepFunction.
