@@ -37,7 +37,7 @@ https://github.com/Harrix/HarrixTestFunctions
  * **MHL_TestFunction_Multiextremal** - функция Multiextremal;
  * **MHL_TestFunction_Multiextremal2** - функция Multiextremal2;
  * **MHL_TestFunction_Wave** - волна;
- * **MHL_TestFuction_SumVector** - сумма всех элементов бинарного вектора.
+ * **MHL_TestFunction_SumVector** - сумма всех элементов бинарного вектора.
  
 Графики некоторых функций
 -------------------------
