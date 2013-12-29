@@ -1,6 +1,10 @@
 HarrixTestFunctions
 ===================
 
+1.21
+----
+ * Добавление функции MHL_TestFunction_ShekelsFoxholes.
+
 1.20
 ----
  * Добавление функции MHL_TestFunction_Rana.
