@@ -1,7 +1,7 @@
 HarrixTestFunctions
 ===================
 
-Версия 1.22
+Версия 1.23
 
 Тестовые функции для глобальной оптимизации.
 
@@ -16,7 +16,7 @@ https://github.com/Harrix/HarrixTestFunctions
 Тестовые функции
 ----------------
 
-На данный момент функций 22 штук.
+На данный момент функций 24 штук.
  * **MHL_TestFuction_Ackley** - функция Ackley.
  * **MHL_TestFunction_HyperEllipsoid** - гипер-эллипсоид;
  * **MHL_TestFuction_ParaboloidOfRevolution** - эллиптический параболоид.
@@ -32,6 +32,8 @@ https://github.com/Harrix/HarrixTestFunctions
  * **MHL_TestFunction_Multiextremal4** - функция Multiextremal4.
  * **MHL_TestFunction_MultiplicativePotential** - мультипликативная потенциальная функция.
  * **MHL_TestFunction_Rana** - функция Rana.
+ * **MHL_TestFunction_RastriginWithChange** - функция Растригина с изменением коэффициентов.
+ * **MHL_TestFunction_RastriginWithTurning** - функция Растригина с изменением коэффициентов.
  * **MHL_TestFunction_ReverseGriewank** - функция ReverseGriewank;
  * **MHL_TestFunction_ShekelsFoxholes** - функция "Лисьи норы" Шекеля;
  * **MHL_TestFunction_Sombrero** - функция Сомбреро;

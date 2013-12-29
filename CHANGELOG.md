@@ -1,6 +1,11 @@
 HarrixTestFunctions
 ===================
 
+1.23
+----
+ * Добавление функции MHL_TestFunction_RastriginWithChange.
+ * Добавление функции MHL_TestFunction_RastriginWithTurning.
+
 1.22
 ----
  * Добавление функции MHL_TestFunction_EggHolder.
