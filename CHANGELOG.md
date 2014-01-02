@@ -1,6 +1,10 @@
 HarrixTestFunctions
 ===================
 
+1.24
+----
+ * Добавление функции MHL_TestFunction_Schwefel.
+
 1.23
 ----
  * Добавление функции MHL_TestFunction_RastriginWithChange.
