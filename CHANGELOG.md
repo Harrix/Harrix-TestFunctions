@@ -1,6 +1,10 @@
 HarrixTestFunctions
 ===================
 
+1.25
+----
+ * Добавление функции MHL_TestFunction_Griewangk.
+
 1.24
 ----
  * Добавление функции MHL_TestFunction_Schwefel.
