@@ -16,7 +16,7 @@ https://github.com/Harrix/HarrixTestFunctions
 Тестовые функции
 ----------------
 
-На данный момент функций 28 штук.
+На данный момент функций 29 штук.
  * **MHL_TestFunction_Ackley** - функция Ackley.
  * **MHL_TestFunction_GaussianQuartic** - функция Gaussian quartic;
  * **MHL_TestFunction_Griewangk** - функция Гриванка;
