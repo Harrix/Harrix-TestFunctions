@@ -1,7 +1,7 @@
 HarrixTestFunctions
 ===================
 
-Версия 1.26
+Версия 1.27
 
 Тестовые функции для глобальной оптимизации.
 
@@ -16,8 +16,9 @@ https://github.com/Harrix/HarrixTestFunctions
 Тестовые функции
 ----------------
 
-На данный момент функций 27 штук.
+На данный момент функций 28 штук.
  * **MHL_TestFunction_Ackley** - функция Ackley.
+ * **MHL_TestFunction_GaussianQuartic** - функция Gaussian quartic;
  * **MHL_TestFunction_Griewangk** - функция Гриванка;
  * **MHL_TestFunction_HyperEllipsoid** - гипер-эллипсоид;
  * **MHL_TestFunction_ParaboloidOfRevolution** - эллиптический параболоид.
