@@ -1,7 +1,7 @@
 HarrixTestFunctions
 ===================
 
-Версия 1.28
+Версия 1.29
 
 Тестовые функции для глобальной оптимизации.
 
@@ -17,28 +17,28 @@ https://github.com/Harrix/HarrixTestFunctions
 ----------------
 
 На данный момент функций 29 штук.
- * **MHL_TestFunction_Ackley** - функция Ackley.
+ * **MHL_TestFunction_Ackley** - функция Ackley;
  * **MHL_TestFunction_GaussianQuartic** - функция Gaussian quartic;
  * **MHL_TestFunction_Griewangk** - функция Гриванка;
  * **MHL_TestFunction_HyperEllipsoid** - гипер-эллипсоид;
- * **MHL_TestFunction_ParaboloidOfRevolution** - эллиптический параболоид.
- * **MHL_TestFunction_Rastrigin** - функция Растригина.
- * **MHL_TestFunction_RastriginNovgorod** - функция Растригина новгородская.
- * **MHL_TestFunction_Rosenbrock** - функция Розенброка.
- * **MHL_TestFunction_RotatedHyperEllipsoid** - развернутый гипер-эллипсоид.
- * **MHL_TestFunction_Schwefel** - функция Швефеля.
- * **MHL_TestFunction_StepFunction** - Функция Step (модифицированная версия De Jong 3).
- * **MHL_TestFunction_AdditivePotential** - аддитивная потенциальная функция.
+ * **MHL_TestFunction_ParaboloidOfRevolution** - эллиптический параболоид;
+ * **MHL_TestFunction_Rastrigin** - функция Растригина;
+ * **MHL_TestFunction_RastriginNovgorod** - функция Растригина новгородская;
+ * **MHL_TestFunction_Rosenbrock** - функция Розенброка;
+ * **MHL_TestFunction_RotatedHyperEllipsoid** - развернутый гипер-эллипсоид;
+ * **MHL_TestFunction_Schwefel** - функция Швефеля;
+ * **MHL_TestFunction_StepFunction** - функция Step (модифицированная версия De Jong 3);
+ * **MHL_TestFunction_AdditivePotential** - аддитивная потенциальная функция;
  * **MHL_TestFunction_EggHolder** - функция Egg Holder;
- * **MHL_TestFunction_Himmelblau** - функция Химмельблау.
- * **MHL_TestFunction_InvertedRosenbrock** - перевернутая функция Розенброка.
- * **MHL_TestFunction_Katnikov** - функция Катникова.
- * **MHL_TestFunction_Multiextremal3** - функция Multiextremal3.
- * **MHL_TestFunction_Multiextremal4** - функция Multiextremal4.
- * **MHL_TestFunction_MultiplicativePotential** - мультипликативная потенциальная функция.
- * **MHL_TestFunction_Rana** - функция Rana.
- * **MHL_TestFunction_RastriginWithChange** - функция Растригина с изменением коэффициентов.
- * **MHL_TestFunction_RastriginWithTurning** - функция Растригина с изменением коэффициентов.
+ * **MHL_TestFunction_Himmelblau** - функция Химмельблау;
+ * **MHL_TestFunction_InvertedRosenbrock** - перевернутая функция Розенброка;
+ * **MHL_TestFunction_Katnikov** - функция Катникова;
+ * **MHL_TestFunction_Multiextremal3** - функция Multiextremal3;
+ * **MHL_TestFunction_Multiextremal4** - функция Multiextremal4;
+ * **MHL_TestFunction_MultiplicativePotential** - мультипликативная потенциальная функция;
+ * **MHL_TestFunction_Rana** - функция Rana;
+ * **MHL_TestFunction_RastriginWithChange** - функция Растригина с изменением коэффициентов;
+ * **MHL_TestFunction_RastriginWithTurning** - функция Растригина овражная с поворотом осей;
  * **MHL_TestFunction_ReverseGriewank** - функция ReverseGriewank;
  * **MHL_TestFunction_ShekelsFoxholes** - функция "Лисьи норы" Шекеля;
  * **MHL_TestFunction_Sombrero** - функция Сомбреро;
