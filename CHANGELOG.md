@@ -1,6 +1,10 @@
 HarrixTestFunctions
 ===================
 
+1.28
+----
+ * Добавление функции MHL_TestFunction_RastriginNovgorod.
+
 1.27
 ----
  * Добавление функции MHL_TestFunction_GaussianQuartic.

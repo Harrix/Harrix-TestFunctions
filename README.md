@@ -1,7 +1,7 @@
 HarrixTestFunctions
 ===================
 
-Версия 1.27
+Версия 1.28
 
 Тестовые функции для глобальной оптимизации.
 
@@ -23,6 +23,7 @@ https://github.com/Harrix/HarrixTestFunctions
  * **MHL_TestFunction_HyperEllipsoid** - гипер-эллипсоид;
  * **MHL_TestFunction_ParaboloidOfRevolution** - эллиптический параболоид.
  * **MHL_TestFunction_Rastrigin** - функция Растригина.
+ * **MHL_TestFunction_RastriginNovgorod** - функция Растригина новгородская.
  * **MHL_TestFunction_Rosenbrock** - функция Розенброка.
  * **MHL_TestFunction_RotatedHyperEllipsoid** - развернутый гипер-эллипсоид.
  * **MHL_TestFunction_Schwefel** - функция Швефеля.
