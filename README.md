@@ -5,11 +5,11 @@ HarrixTestFunctions
 
 Тестовые функции для глобальной оптимизации.
 
-https://github.com/Harrix/HarrixTestFunctions
+[https://github.com/Harrix/HarrixTestFunctions](https://github.com/Harrix/HarrixTestFunctions)
 
-Файлы распространяются по лицензии [Apache License, Version 2.0](../master/LICENSE.txt).
+Файлы распространяются по лицензии [Apache License, Version 2.0](https://github.com/Harrix/HarrixTestFunctions/blob/master/LICENSE.txt).
 
-Сам документ находится в файле [**_HarrixTestFunctions.pdf**](../master/_HarrixTestFunctions.pdf).
+Сам документ находится в файле [**_HarrixTestFunctions.pdf**](https://github.com/Harrix/HarrixTestFunctions/blob/master/_HarrixTestFunctions.pdf).
 
 Прямая ссылка на скачивание: [**_HarrixTestFunctions.pdf**](https://raw.github.com/Harrix/HarrixTestFunctions/master/_HarrixTestFunctions.pdf).
 
@@ -18,7 +18,7 @@ https://github.com/Harrix/HarrixTestFunctions
 Установка
 ---------
 
-Прочитать подробно об установке можно тут http://blog.harrix.org/?p=1223.
+Прочитать подробно об установке можно тут [http://blog.harrix.org/?p=1223](http://blog.harrix.org/?p=1223).
 
 Тестовые функции
 ----------------
@@ -57,48 +57,48 @@ https://github.com/Harrix/HarrixTestFunctions
 Графики некоторых функций
 -------------------------
 
-![alt text](../master/images/MHL_TestFunction_Ackley.png "MHL_TestFunction_Ackley")
+![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/MHL_TestFunction_Ackley.png "MHL_TestFunction_Ackley")
 
-![alt text](../master/images/MHL_TestFunction_AdditivePotential.png "MHL_TestFunction_AdditivePotential")
+![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/MHL_TestFunction_AdditivePotential.png "MHL_TestFunction_AdditivePotential")
 
-![alt text](../master/images/MHL_TestFunction_ParaboloidOfRevolution.png "MHL_TestFunction_ParaboloidOfRevolution")
+![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/MHL_TestFunction_ParaboloidOfRevolution.png "MHL_TestFunction_ParaboloidOfRevolution")
 
-![alt text](../master/images/MHL_TestFunction_Rastrigin.png "MHL_TestFunction_Rastrigin")
+![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/MHL_TestFunction_Rastrigin.png "MHL_TestFunction_Rastrigin")
 
-![alt text](../master/images/MHL_TestFunction_Rosenbrock.png "MHL_TestFunction_Rosenbrock")
+![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/MHL_TestFunction_Rosenbrock.png "MHL_TestFunction_Rosenbrock")
 
 Про структуру проекта
 ---------------------
 
-Файл [**_HarrixTestFunctions.pdf**](../master/_HarrixTestFunctions.pdf) - это непосредственно сам документ тестовых функций.
+Файл [**_HarrixTestFunctions.pdf**](https://github.com/Harrix/HarrixTestFunctions/blob/master/_HarrixTestFunctions.pdf) - это непосредственно сам документ тестовых функций.
 
 В корневой папке находятся три папки. 
 
-В папке [**Source**](../master/Source) располагаются файлы непосредственно документа, где находится файл [**_HarrixTestFunctions.tex**](../master/_HarrixTestFunctions.tex) (это исходник pdf документа) и файлы, которые являются вызываемыми или вспомогательными для [**_HarrixTestFunctions.tex**](../master/_HarrixTestFunctions.tex).
+В папке [**Source**](https://github.com/Harrix/HarrixTestFunctions/blob/master/Source) располагаются файлы непосредственно документа, где находится файл [**_HarrixTestFunctions.tex**](https://github.com/Harrix/HarrixTestFunctions/blob/master/_HarrixTestFunctions.tex) (это исходник pdf документа) и файлы, которые являются вызываемыми или вспомогательными для [**_HarrixTestFunctions.tex**](https://github.com/Harrix/HarrixTestFunctions/blob/master/_HarrixTestFunctions.tex).
 
-В папке [**MathcadFiles**](../master/MathcadFiles) располагаются файлы Mathcad, в которых реализованы функции, а также графики для рисунков из папки [**Source/images**](../master/Source/images) в папке [**Source**](../master/Source). 
+В папке [**MathcadFiles**](https://github.com/Harrix/HarrixTestFunctions/blob/master/MathcadFiles) располагаются файлы Mathcad, в которых реализованы функции, а также графики для рисунков из папки [**Source/images**](https://github.com/Harrix/HarrixTestFunctions/blob/master/Source/images) в папке [**Source**](https://github.com/Harrix/HarrixTestFunctions/blob/master/Source). 
 
-В папке [**images**](../master/images) находятся служебные рисунки для отображения в этом файле.
+В папке [**images**](https://github.com/Harrix/HarrixTestFunctions/blob/master/images) находятся служебные рисунки для отображения в этом файле.
 
 Сведения для редактирования файлов
 ----------------------------------
 
 Для полноценной работы редактированию LaTeX документа вам потребуются программа для компиляции \*.tex документов в \*.pdf. Автор использует для этого связку [MiKTex](http://www.miktex.org/) и [TeXstudio](http://texstudio.sourceforge.net/). 
 
-В варианте, который использует автор, в \*.tex файлах справок для отображения русских букв используется модуль pscyr. Об его установке можно прочитать (и скачать) в статье http://blog.harrix.org/?p=444.
+В варианте, который использует автор, в \*.tex файлах справок для отображения русских букв используется модуль pscyr. Об его установке можно прочитать (и скачать) в статье [http://blog.harrix.org/?p=444](http://blog.harrix.org/?p=444).
 
-Подробное описание установки и настройки связки MiKTeX + TeXstudio + pscyr можно прочитать в статье http://blog.harrix.org/?p=849.
+Подробное описание установки и настройки связки MiKTeX + TeXstudio + pscyr можно прочитать в статье [http://blog.harrix.org/?p=849](http://blog.harrix.org/?p=849).
 
 Использованные технологии
 -------------------------
 
-- [LaTeX](http://ru.wikipedia.org/wiki/LaTeX), [MiKTeX](http://miktex.org/), [BiBTex](http://ru.wikipedia.org/wiki/BibTeX), [TeXstudio](http://texstudio.sourceforge.net/), [PSCyr](http://blog.harrix.org/?p=444).
+- [LaTeX](http://ru.wikipedia.org/wiki/LaTeX), [MiKTeX](http://miktex.org/), [BiBTex](http://ru.wikipedia.org/wiki/BibTeX), [TeXstudio](http://texstudio.sourceforge.net/), [PSCyr]([http://blog.harrix.org/?p=444](http://blog.harrix.org/?p=444)).
 - [HarrixLaTeXDocumentTemplate](https://github.com/Harrix/HarrixLaTeXDocumentTemplate).
 
 История проекта
 ---------------
 
-Подробный список изменений в файле [CHANGELOG.md](../master/CHANGELOG.md).
+Подробный список изменений в файле [CHANGELOG.md](https://github.com/Harrix/HarrixTestFunctions/blob/master/CHANGELOG.md).
 
 Контакты
 --------
