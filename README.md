@@ -24,6 +24,7 @@ HarrixTestFunctions
 ----------------
 
 На данный момент функций 29 штук.
+
  * **MHL_TestFunction_Ackley** - функция Ackley;
  * **MHL_TestFunction_GaussianQuartic** - функция Gaussian quartic;
  * **MHL_TestFunction_Griewangk** - функция Гриванка;
