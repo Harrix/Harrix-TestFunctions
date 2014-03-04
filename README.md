@@ -1,7 +1,7 @@
 HarrixTestFunctions
 ===================
 
-Версия 1.30
+Версия 1.31
 
 Тестовые функции для глобальной оптимизации.
 
@@ -23,7 +23,7 @@ HarrixTestFunctions
 Тестовые функции
 ----------------
 
-На данный момент функций 29 штук.
+На данный момент функций 30 штук.
 
  * **MHL_TestFunction_Ackley** - функция Ackley;
  * **MHL_TestFunction_GaussianQuartic** - функция Gaussian quartic;
@@ -37,6 +37,7 @@ HarrixTestFunctions
  * **MHL_TestFunction_Schwefel** - функция Швефеля;
  * **MHL_TestFunction_StepFunction** - функция Step (модифицированная версия De Jong 3);
  * **MHL_TestFunction_AdditivePotential** - аддитивная потенциальная функция;
+ * **MHL_TestFunction_Bosom** - функция Bosom;
  * **MHL_TestFunction_EggHolder** - функция Egg Holder;
  * **MHL_TestFunction_Himmelblau** - функция Химмельблау;
  * **MHL_TestFunction_InvertedRosenbrock** - перевернутая функция Розенброка;

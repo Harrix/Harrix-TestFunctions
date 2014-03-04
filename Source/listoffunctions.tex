@@ -15,6 +15,7 @@
  \item \hyperref[TestFunctions:section:MHL_TestFunction_Schwefel]{\textbf{MHL\_TestFunction\_Schwefel}} --- функция Швефеля;
  \item \hyperref[TestFunctions:section:MHL_TestFunction_StepFunction]{\textbf{MHL\_TestFunction\_StepFunction}} --- функция Step (модифицированная версия De Jong 3);
  \item \hyperref[TestFunctions:section:MHL_TestFunction_AdditivePotential]{\textbf{MHL\_TestFunction\_AdditivePotential}} --- аддитивная потенциальная функция;
+ \item \hyperref[TestFunctions:section:MHL_TestFunction_Bosom]{\textbf{MHL\_TestFunction\_Bosom}} --- функция Bosom;
  \item \hyperref[TestFunctions:section:MHL_TestFunction_EggHolder]{\textbf{MHL\_TestFunction\_EggHolder}} --- функция Egg Holder;
  \item \hyperref[TestFunctions:section:MHL_TestFunction_Himmelblau]{\textbf{MHL\_TestFunction\_Himmelblau}} --- функция Химмельблау;
  \item \hyperref[TestFunctions:section:MHL_TestFunction_InvertedRosenbrock]{\textbf{MHL\_TestFunction\_InvertedRosenbrock}} --- перевернутая функция Розенброка;
@@ -89,6 +90,18 @@ f\left( \bar{x}\right) = \sum_{i=1}^{n}\left( i\cdot\bar{x}_i\right) ^2.
  \begin{equation*}
  z\left( v\right)= -\dfrac{1}{\left( v-1\right)^2+0.2 }-\dfrac{1}{2\left( v-2\right)^2+0.15}-\dfrac{1}{3\left( v-3\right)^2+0.3}.
  \end{equation*}
+\item \hyperref[TestFunctions:section:MHL_TestFunction_Bosom]{\textbf{MHL\_TestFunction\_Bosom}} --- функция Bosom:
+\begin{equation}
+f\left( \bar{x}\right) = e^{\frac{z_1\left( \bar{x}_1,\bar{x}_2\right)}{1000} } +e^{\frac{z_2\left( \bar{x}_1,\bar{x}_2\right)}{1000} }+ 0.15\cdot e^{z_1\left( \bar{x}_1,\bar{x}_2\right) }+0.15\cdot e^{z_2\left( \bar{x}_1,\bar{x}_2\right) }, \text{ где}
+\end{equation}
+\begin{equation*}
+\label{TestFunctions:eq:MHL_Bosom2}
+z_1\left( \bar{x}_1,\bar{x}_2\right) = -\left(\left( \bar{x}_1+4\right)^2 +\left( \bar{x}_2+4\right)^2 \right)^2 ,
+\end{equation*}
+\begin{equation*}
+\label{TestFunctions:eq:MHL_Bosom3}
+z_2\left( \bar{x}_1,\bar{x}_2\right) = -\left(\left( \bar{x}_1-4\right)^2 +\left( \bar{x}_2-4\right)^2 \right)^2 ,
+\end{equation*}
  \item \hyperref[TestFunctions:section:MHL_TestFunction_EggHolder]{\textbf{MHL\_TestFunction\_EggHolder}} --- функция Egg Holder:
  \begin{equation}
  f\left( \bar{x}\right) = -\bar{x}_1\sin\left( \sqrt{\left| \bar{x}_1-47-\bar{x}_2\right| }\right)- (\bar{x}_2+47)\sin\left( \sqrt{\left| \dfrac{\bar{x}_1}{2}+47+\bar{x}_2\right| }\right).
