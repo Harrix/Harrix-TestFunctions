@@ -1,7 +1,7 @@
 HarrixTestFunctions
 ===================
 
-Версия 1.31
+Версия 1.32
 
 Тестовые функции для глобальной оптимизации.
 
@@ -25,49 +25,49 @@ HarrixTestFunctions
 
 На данный момент функций 30 штук.
 
- * **MHL_TestFunction_Ackley** - функция Ackley;
- * **MHL_TestFunction_GaussianQuartic** - функция Gaussian quartic;
- * **MHL_TestFunction_Griewangk** - функция Гриванка;
- * **MHL_TestFunction_HyperEllipsoid** - гипер-эллипсоид;
- * **MHL_TestFunction_ParaboloidOfRevolution** - эллиптический параболоид;
- * **MHL_TestFunction_Rastrigin** - функция Растригина;
- * **MHL_TestFunction_RastriginNovgorod** - функция Растригина новгородская;
- * **MHL_TestFunction_Rosenbrock** - функция Розенброка;
- * **MHL_TestFunction_RotatedHyperEllipsoid** - развернутый гипер-эллипсоид;
- * **MHL_TestFunction_Schwefel** - функция Швефеля;
- * **MHL_TestFunction_StepFunction** - функция Step (модифицированная версия De Jong 3);
- * **MHL_TestFunction_AdditivePotential** - аддитивная потенциальная функция;
- * **MHL_TestFunction_Bosom** - функция Bosom;
- * **MHL_TestFunction_EggHolder** - функция Egg Holder;
- * **MHL_TestFunction_Himmelblau** - функция Химмельблау;
- * **MHL_TestFunction_InvertedRosenbrock** - перевернутая функция Розенброка;
- * **MHL_TestFunction_Katnikov** - функция Катникова;
- * **MHL_TestFunction_Multiextremal3** - функция Multiextremal3;
- * **MHL_TestFunction_Multiextremal4** - функция Multiextremal4;
- * **MHL_TestFunction_MultiplicativePotential** - мультипликативная потенциальная функция;
- * **MHL_TestFunction_Rana** - функция Rana;
- * **MHL_TestFunction_RastriginWithChange** - функция Растригина с изменением коэффициентов;
- * **MHL_TestFunction_RastriginWithTurning** - функция Растригина овражная с поворотом осей;
- * **MHL_TestFunction_ReverseGriewank** - функция ReverseGriewank;
- * **MHL_TestFunction_ShekelsFoxholes** - функция "Лисьи норы" Шекеля;
- * **MHL_TestFunction_Sombrero** - функция Сомбреро;
- * **MHL_TestFunction_Multiextremal** - функция Multiextremal;
- * **MHL_TestFunction_Multiextremal2** - функция Multiextremal2;
- * **MHL_TestFunction_Wave** - волна;
- * **MHL_TestFunction_SumVector** - сумма всех элементов бинарного вектора.
+ * **HML_TestFunction_Ackley** - функция Ackley;
+ * **HML_TestFunction_GaussianQuartic** - функция Gaussian quartic;
+ * **HML_TestFunction_Griewangk** - функция Гриванка;
+ * **HML_TestFunction_HyperEllipsoid** - гипер-эллипсоид;
+ * **HML_TestFunction_ParaboloidOfRevolution** - эллиптический параболоид;
+ * **HML_TestFunction_Rastrigin** - функция Растригина;
+ * **HML_TestFunction_RastriginNovgorod** - функция Растригина новгородская;
+ * **HML_TestFunction_Rosenbrock** - функция Розенброка;
+ * **HML_TestFunction_RotatedHyperEllipsoid** - развернутый гипер-эллипсоид;
+ * **HML_TestFunction_Schwefel** - функция Швефеля;
+ * **HML_TestFunction_StepFunction** - функция Step (модифицированная версия De Jong 3);
+ * **HML_TestFunction_AdditivePotential** - аддитивная потенциальная функция;
+ * **HML_TestFunction_Bosom** - функция Bosom;
+ * **HML_TestFunction_EggHolder** - функция Egg Holder;
+ * **HML_TestFunction_Himmelblau** - функция Химмельблау;
+ * **HML_TestFunction_InvertedRosenbrock** - перевернутая функция Розенброка;
+ * **HML_TestFunction_Katnikov** - функция Катникова;
+ * **HML_TestFunction_Multiextremal3** - функция Multiextremal3;
+ * **HML_TestFunction_Multiextremal4** - функция Multiextremal4;
+ * **HML_TestFunction_MultiplicativePotential** - мультипликативная потенциальная функция;
+ * **HML_TestFunction_Rana** - функция Rana;
+ * **HML_TestFunction_RastriginWithChange** - функция Растригина с изменением коэффициентов;
+ * **HML_TestFunction_RastriginWithTurning** - функция Растригина овражная с поворотом осей;
+ * **HML_TestFunction_ReverseGriewank** - функция ReverseGriewank;
+ * **HML_TestFunction_ShekelsFoxholes** - функция "Лисьи норы" Шекеля;
+ * **HML_TestFunction_Sombrero** - функция Сомбреро;
+ * **HML_TestFunction_Multiextremal** - функция Multiextremal;
+ * **HML_TestFunction_Multiextremal2** - функция Multiextremal2;
+ * **HML_TestFunction_Wave** - волна;
+ * **HML_TestFunction_SumVector** - сумма всех элементов бинарного вектора.
  
 Графики некоторых функций
 -------------------------
 
-![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/MHL_TestFunction_Ackley.png "MHL_TestFunction_Ackley")
+![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/HML_TestFunction_Ackley.png "HML_TestFunction_Ackley")
 
-![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/MHL_TestFunction_AdditivePotential.png "MHL_TestFunction_AdditivePotential")
+![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/HML_TestFunction_AdditivePotential.png "HML_TestFunction_AdditivePotential")
 
-![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/MHL_TestFunction_ParaboloidOfRevolution.png "MHL_TestFunction_ParaboloidOfRevolution")
+![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/HML_TestFunction_ParaboloidOfRevolution.png "HML_TestFunction_ParaboloidOfRevolution")
 
-![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/MHL_TestFunction_Rastrigin.png "MHL_TestFunction_Rastrigin")
+![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/HML_TestFunction_Rastrigin.png "HML_TestFunction_Rastrigin")
 
-![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/MHL_TestFunction_Rosenbrock.png "MHL_TestFunction_Rosenbrock")
+![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/HML_TestFunction_Rosenbrock.png "HML_TestFunction_Rosenbrock")
 
 Про структуру проекта
 ---------------------
