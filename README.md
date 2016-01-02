@@ -7,7 +7,7 @@ HarrixTestFunctions
 
 [https://github.com/Harrix/HarrixTestFunctions](https://github.com/Harrix/HarrixTestFunctions)
 
-Файлы распространяются по лицензии [Apache License, Version 2.0](https://github.com/Harrix/HarrixTestFunctions/blob/master/LICENSE.txt).
+Файлы распространяются по лицензии [MIT](https://github.com/Harrix/HarrixTestFunctions/blob/master/LICENSE).
 
 Сам документ находится в файле [**_HarrixTestFunctions.pdf**](https://github.com/Harrix/HarrixTestFunctions/blob/master/_HarrixTestFunctions.pdf).
 
