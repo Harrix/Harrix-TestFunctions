@@ -1,5 +1,4 @@
-HarrixTestFunctions
-===================
+# HarrixTestFunctions
 
 Версия 1.32
 
@@ -15,49 +14,46 @@ HarrixTestFunctions
 
 В данном документе рассмотрено множество тестовых функций, которые можно использовать для проведения исследований алгоритмов оптимизации. К каждой функции дано подробное описание, график (если это возможно), свойств и параметров, которые позволят единообразно проводить сравнения разных алгоритмов оптимизации во избежания несостыковок с точки зрения разного понимания нахождения ошибки, точности работы алгоритмом.
 
-Установка
----------
+## Установка
 
 Прочитать подробно об установке можно тут [http://blog.harrix.org/?p=1223](http://blog.harrix.org/?p=1223).
 
-Тестовые функции
-----------------
+## Тестовые функции
 
 На данный момент функций 30 штук.
 
- * **HML_TestFunction_Ackley** - функция Ackley;
- * **HML_TestFunction_GaussianQuartic** - функция Gaussian quartic;
- * **HML_TestFunction_Griewangk** - функция Гриванка;
- * **HML_TestFunction_HyperEllipsoid** - гипер-эллипсоид;
- * **HML_TestFunction_ParaboloidOfRevolution** - эллиптический параболоид;
- * **HML_TestFunction_Rastrigin** - функция Растригина;
- * **HML_TestFunction_RastriginNovgorod** - функция Растригина новгородская;
- * **HML_TestFunction_Rosenbrock** - функция Розенброка;
- * **HML_TestFunction_RotatedHyperEllipsoid** - развернутый гипер-эллипсоид;
- * **HML_TestFunction_Schwefel** - функция Швефеля;
- * **HML_TestFunction_StepFunction** - функция Step (модифицированная версия De Jong 3);
- * **HML_TestFunction_AdditivePotential** - аддитивная потенциальная функция;
- * **HML_TestFunction_Bosom** - функция Bosom;
- * **HML_TestFunction_EggHolder** - функция Egg Holder;
- * **HML_TestFunction_Himmelblau** - функция Химмельблау;
- * **HML_TestFunction_InvertedRosenbrock** - перевернутая функция Розенброка;
- * **HML_TestFunction_Katnikov** - функция Катникова;
- * **HML_TestFunction_Multiextremal3** - функция Multiextremal3;
- * **HML_TestFunction_Multiextremal4** - функция Multiextremal4;
- * **HML_TestFunction_MultiplicativePotential** - мультипликативная потенциальная функция;
- * **HML_TestFunction_Rana** - функция Rana;
- * **HML_TestFunction_RastriginWithChange** - функция Растригина с изменением коэффициентов;
- * **HML_TestFunction_RastriginWithTurning** - функция Растригина овражная с поворотом осей;
- * **HML_TestFunction_ReverseGriewank** - функция ReverseGriewank;
- * **HML_TestFunction_ShekelsFoxholes** - функция "Лисьи норы" Шекеля;
- * **HML_TestFunction_Sombrero** - функция Сомбреро;
- * **HML_TestFunction_Multiextremal** - функция Multiextremal;
- * **HML_TestFunction_Multiextremal2** - функция Multiextremal2;
- * **HML_TestFunction_Wave** - волна;
- * **HML_TestFunction_SumVector** - сумма всех элементов бинарного вектора.
+* **HML_TestFunction_Ackley** - функция Ackley;
+* **HML_TestFunction_GaussianQuartic** - функция Gaussian quartic;
+* **HML_TestFunction_Griewangk** - функция Гриванка;
+* **HML_TestFunction_HyperEllipsoid** - гипер-эллипсоид;
+* **HML_TestFunction_ParaboloidOfRevolution** - эллиптический параболоид;
+* **HML_TestFunction_Rastrigin** - функция Растригина;
+* **HML_TestFunction_RastriginNovgorod** - функция Растригина новгородская;
+* **HML_TestFunction_Rosenbrock** - функция Розенброка;
+* **HML_TestFunction_RotatedHyperEllipsoid** - развернутый гипер-эллипсоид;
+* **HML_TestFunction_Schwefel** - функция Швефеля;
+* **HML_TestFunction_StepFunction** - функция Step (модифицированная версия De Jong 3);
+* **HML_TestFunction_AdditivePotential** - аддитивная потенциальная функция;
+* **HML_TestFunction_Bosom** - функция Bosom;
+* **HML_TestFunction_EggHolder** - функция Egg Holder;
+* **HML_TestFunction_Himmelblau** - функция Химмельблау;
+* **HML_TestFunction_InvertedRosenbrock** - перевернутая функция Розенброка;
+* **HML_TestFunction_Katnikov** - функция Катникова;
+* **HML_TestFunction_Multiextremal3** - функция Multiextremal3;
+* **HML_TestFunction_Multiextremal4** - функция Multiextremal4;
+* **HML_TestFunction_MultiplicativePotential** - мультипликативная потенциальная функция;
+* **HML_TestFunction_Rana** - функция Rana;
+* **HML_TestFunction_RastriginWithChange** - функция Растригина с изменением коэффициентов;
+* **HML_TestFunction_RastriginWithTurning** - функция Растригина овражная с поворотом осей;
+* **HML_TestFunction_ReverseGriewank** - функция ReverseGriewank;
+* **HML_TestFunction_ShekelsFoxholes** - функция "Лисьи норы" Шекеля;
+* **HML_TestFunction_Sombrero** - функция Сомбреро;
+* **HML_TestFunction_Multiextremal** - функция Multiextremal;
+* **HML_TestFunction_Multiextremal2** - функция Multiextremal2;
+* **HML_TestFunction_Wave** - волна;
+* **HML_TestFunction_SumVector** - сумма всех элементов бинарного вектора.
  
-Графики некоторых функций
--------------------------
+## Графики некоторых функций
 
 ![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/HML_TestFunction_Ackley.png "HML_TestFunction_Ackley")
 
@@ -69,8 +65,7 @@ HarrixTestFunctions
 
 ![alt text](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/HML_TestFunction_Rosenbrock.png "HML_TestFunction_Rosenbrock")
 
-Про структуру проекта
----------------------
+## Про структуру проекта
 
 Файл [**_HarrixTestFunctions.pdf**](https://github.com/Harrix/HarrixTestFunctions/blob/master/_HarrixTestFunctions.pdf) - это непосредственно сам документ тестовых функций.
 
@@ -82,8 +77,7 @@ HarrixTestFunctions
 
 В папке [**images**](https://github.com/Harrix/HarrixTestFunctions/blob/master/images) находятся служебные рисунки для отображения в этом файле.
 
-Сведения для редактирования файлов
-----------------------------------
+## Сведения для редактирования файлов
 
 Для полноценной работы редактированию LaTeX документа вам потребуются программа для компиляции \*.tex документов в \*.pdf. Автор использует для этого связку [MiKTex](http://www.miktex.org/) и [TeXstudio](http://texstudio.sourceforge.net/). 
 
@@ -91,19 +85,16 @@ HarrixTestFunctions
 
 Подробное описание установки и настройки связки MiKTeX + TeXstudio + pscyr можно прочитать в статье [http://blog.harrix.org/?p=849](http://blog.harrix.org/?p=849).
 
-Использованные технологии
--------------------------
+## Использованные технологии
 
 - [LaTeX](http://ru.wikipedia.org/wiki/LaTeX), [MiKTeX](http://miktex.org/), [BiBTex](http://ru.wikipedia.org/wiki/BibTeX), [TeXstudio](http://texstudio.sourceforge.net/), [PSCyr]([http://blog.harrix.org/?p=444](http://blog.harrix.org/?p=444)).
 - [HarrixLaTeXDocumentTemplate](https://github.com/Harrix/HarrixLaTeXDocumentTemplate).
 
-История проекта
----------------
+## История проекта
 
 Подробный список изменений в файле [CHANGELOG.md](https://github.com/Harrix/HarrixTestFunctions/blob/master/CHANGELOG.md).
 
-Контакты
---------
+## Контакты
 
 Автор: Сергиенко Антон Борисович.
 
