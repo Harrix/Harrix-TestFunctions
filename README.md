@@ -55,15 +55,15 @@
  
 ## Графики некоторых функций
 
-![HML_TestFunction_Ackley](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/HML_TestFunction_Ackley.png)
+![HML_TestFunction_Ackley](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/MHL_TestFunction_Ackley.png)
 
-![HML_TestFunction_AdditivePotential](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/HML_TestFunction_AdditivePotential.png)
+![HML_TestFunction_AdditivePotential](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/MHL_TestFunction_AdditivePotential.png)
 
-![HML_TestFunction_ParaboloidOfRevolution](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/HML_TestFunction_ParaboloidOfRevolution.png)
+![HML_TestFunction_ParaboloidOfRevolution](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/MHL_TestFunction_ParaboloidOfRevolution.png)
 
-![HML_TestFunction_Rastrigin](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/HML_TestFunction_Rastrigin.png)
+![HML_TestFunction_Rastrigin](https://raw.github.com/Harrix/HarrixTestFunctions/master/images/MHL_TestFunction_Rastrigin.png)
 
-![HML_TestFunction_Rosenbrock](https://raw.githubusercontent.com/Harrix/HarrixTestFunctions/master/images/HML_TestFunction_Rosenbrock.png "HML_TestFunction_Rosenbrock")
+![HML_TestFunction_Rosenbrock](https://raw.githubusercontent.com/Harrix/HarrixTestFunctions/master/images/HML_TestFunction_Rosenbrock.png "MHL_TestFunction_Rosenbrock")
 
 ## Про структуру проекта
 
