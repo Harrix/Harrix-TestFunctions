@@ -6,7 +6,7 @@
 
 [https://github.com/Harrix/HarrixTestFunctions](https://github.com/Harrix/HarrixTestFunctions)
 
-Файлы распространяются по лицензии [MIT](https://github.com/Harrix/HarrixTestFunctions/blob/master/LICENSE).
+Файлы распространяются по лицензии [CC BY 4.0](https://github.com/Harrix/HarrixTestFunctions/blob/master/LICENSE.md).
 
 Сам документ находится в файле [**_HarrixTestFunctions.pdf**](https://github.com/Harrix/HarrixTestFunctions/blob/master/_HarrixTestFunctions.pdf).
 
@@ -52,7 +52,7 @@
 * **HML_TestFunction_Multiextremal2** - функция Multiextremal2;
 * **HML_TestFunction_Wave** - волна;
 * **HML_TestFunction_SumVector** - сумма всех элементов бинарного вектора.
- 
+
 ## Графики некоторых функций
 
 ![HML_TestFunction_Ackley](https://raw.githubusercontent.com/Harrix/HarrixTestFunctions/master/images/MHL_TestFunction_Ackley.png)
@@ -69,17 +69,17 @@
 
 Файл [**_HarrixTestFunctions.pdf**](https://github.com/Harrix/HarrixTestFunctions/blob/master/_HarrixTestFunctions.pdf) - это непосредственно сам документ тестовых функций.
 
-В корневой папке находятся три папки. 
+В корневой папке находятся три папки.
 
 В папке [**Source**](https://github.com/Harrix/HarrixTestFunctions/blob/master/Source) располагаются файлы непосредственно документа, где находится файл [**_HarrixTestFunctions.tex**](https://github.com/Harrix/HarrixTestFunctions/blob/master/_HarrixTestFunctions.tex) (это исходник pdf документа) и файлы, которые являются вызываемыми или вспомогательными для [**_HarrixTestFunctions.tex**](https://github.com/Harrix/HarrixTestFunctions/blob/master/_HarrixTestFunctions.tex).
 
-В папке [**MathcadFiles**](https://github.com/Harrix/HarrixTestFunctions/blob/master/MathcadFiles) располагаются файлы Mathcad, в которых реализованы функции, а также графики для рисунков из папки [**Source/images**](https://github.com/Harrix/HarrixTestFunctions/blob/master/Source/images) в папке [**Source**](https://github.com/Harrix/HarrixTestFunctions/blob/master/Source). 
+В папке [**MathcadFiles**](https://github.com/Harrix/HarrixTestFunctions/blob/master/MathcadFiles) располагаются файлы Mathcad, в которых реализованы функции, а также графики для рисунков из папки [**Source/images**](https://github.com/Harrix/HarrixTestFunctions/blob/master/Source/images) в папке [**Source**](https://github.com/Harrix/HarrixTestFunctions/blob/master/Source).
 
 В папке [**images**](https://github.com/Harrix/HarrixTestFunctions/blob/master/images) находятся служебные рисунки для отображения в этом файле.
 
 ## Сведения для редактирования файлов
 
-Для полноценной работы редактированию LaTeX документа вам потребуются программа для компиляции \*.tex документов в \*.pdf. Автор использует для этого связку [MiKTex](http://www.miktex.org/) и [TeXstudio](http://texstudio.sourceforge.net/). 
+Для полноценной работы редактированию LaTeX документа вам потребуются программа для компиляции \*.tex документов в \*.pdf. Автор использует для этого связку [MiKTex](http://www.miktex.org/) и [TeXstudio](http://texstudio.sourceforge.net/).
 
 В варианте, который использует автор, в \*.tex файлах справок для отображения русских букв используется модуль pscyr. Об его установке можно прочитать (и скачать) в статье [http://blog.harrix.org/?p=444](http://blog.harrix.org/?p=444).
 
